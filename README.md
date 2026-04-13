@@ -40,7 +40,8 @@ Last log, Reboot y lsblk: Aca se siguio la maquina virtual en la casa (por eso l
 
 <img width="688" height="224" alt="image" src="https://github.com/user-attachments/assets/a42f9155-65c4-4721-a402-e8aa9ca35621" />
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/1de14421-e72a-47cb-a1b6-8cb3e2ff7b2d" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c5c57238-6df1-497d-a10a-cbd7868c9e15" />
+
 
 
 
