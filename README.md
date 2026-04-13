@@ -1,6 +1,8 @@
 # Evaluacion-1-Gonzalez-Ojeda
 Evaluacion 1
 
+Estudiantes: Sebastian Gonzalez / Benjamin Ojeda
+
 CREACION MAQUINA LINUX (REDHAT 9)
 
 Nombre de la maquina virtual y Hardware: Tal y como lo indica la evaluacion, se le puso el nombre "Linux (Nombre Estudiantes)" a la maquina virtual.
@@ -42,7 +44,9 @@ Last log, Reboot y lsblk: Aca se siguio la maquina virtual en la casa (por eso l
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c5c57238-6df1-497d-a10a-cbd7868c9e15" />
 
+Algo importante a destacar luego de hacer la particion SWAP es que antes no salia como tal en el comando lsblk, pero despues del reboot su punto de montura ahora si aparece como [SWAP]
 
+Con el reboot, se confirma que los discos estan montados correctamente y que los pasos de la maquina virtual Linux estan completados.
 
 
 
