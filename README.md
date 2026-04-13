@@ -4,6 +4,7 @@ Evaluacion 1
 CREACION MAQUINA LINUX (REDHAT 9)
 
 Nombre de la maquina virtual y Hardware
+
 Tal y como lo indica la evaluacion, se le puso el nombre "Linux (Nombre Estudiantes)" a la maquina virtual.
 Se asignaron 4GB de memoria RAM, 2 CPU y un disco primario de 30GB
 
