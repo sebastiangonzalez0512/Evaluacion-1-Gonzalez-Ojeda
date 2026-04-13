@@ -33,3 +33,10 @@ Comando parted print en /dev/sdb: Aca se pueden ver las particiones solicitadas 
 Archivo /etc/fstab visto con "cat": Aca se ven las particiones sdb1, sdb3 y sdb4 agregadas al archivo fstab, la segunda no esta porque no se debia montar.
 
 <img width="1105" height="485" alt="image" src="https://github.com/user-attachments/assets/5424c4de-bebf-412f-863d-2fb12fcbf150" />
+
+Last log, Reboot y lsblk: Aca se siguio la maquina virtual en la casa (por eso la hora). Ademas, para confirmar que la maquina virtual de la casa es completamente igual se adjuntan nuevamente el comando cat, lsblk y parted print.
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/2eda68eb-5ec8-4dcd-bee3-be998340042e" />
+
+
+
