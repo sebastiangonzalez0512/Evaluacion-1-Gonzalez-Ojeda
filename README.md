@@ -5,7 +5,7 @@ Estudiantes: Sebastian Gonzalez / Benjamin Ojeda
 
 # CREACION MAQUINA LINUX (REDHAT 9)
 
-Nombre de la maquina virtual y Hardware: Tal y como lo indica la evaluacion, se le puso el nombre "Linux (Nombre Estudiantes)" a la maquina virtual.
+Nombre de la maquina virtual y Hardware: Tal y como lo indica la evaluacion, se le puso el nombre "Linux SebastianGonzalez_BenjaminOjeda" a la maquina virtual.
 Se asignaron 4GB de memoria RAM, 2 CPU y un disco primario de 30GB.
 
 <img width="729" height="645" alt="image" src="https://github.com/user-attachments/assets/8c4ebfa4-6106-465e-bab4-f2c657ba09a8" />
