@@ -20,7 +20,7 @@ Hostname: Se le asigno el nombre "gonzalez-ojeda" por el apellido de ambos estud
 
 <img width="1282" height="900" alt="image" src="https://github.com/user-attachments/assets/187c37ed-6ed8-4964-b150-710709b98cf6" />
 
-Creacion nuevo disco 30GB
+A continuacion se muestra en el lsblk el nuevo disco de 30GB que se solicito para particionar.
 
 <img width="1281" height="858" alt="image" src="https://github.com/user-attachments/assets/b84fcd2e-1c69-4e51-82da-80fa29d92f43" />
 
@@ -36,9 +36,11 @@ Archivo /etc/fstab visto con "cat": Aca se ven las particiones sdb1, sdb3 y sdb4
 
 <img width="1105" height="485" alt="image" src="https://github.com/user-attachments/assets/5424c4de-bebf-412f-863d-2fb12fcbf150" />
 
-Last log, Reboot y lsblk: Aca se siguio la maquina virtual en la casa (por eso la hora). Ademas, para confirmar que la maquina virtual de la casa es completamente igual se adjuntan nuevamente el comando cat, lsblk y parted print.
+Reboot, last log y lsblk: Aca se siguio la maquina virtual en la casa (por eso la hora). Ademas, para confirmar que la maquina virtual de la casa es completamente igual se adjuntan nuevamente el comando cat, lsblk y parted print.
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/2eda68eb-5ec8-4dcd-bee3-be998340042e" />
+
+En la siguiente imagen se ve la ultima sesion antes del reboot. (al final sale que la sesion anterior empezo a las 14 horas porque intentamos cambiar la hora para que se mantenga uniforme con las demas capturas, pero preferimos la honestidad antes que la inconsistencia).
 
 <img width="688" height="224" alt="image" src="https://github.com/user-attachments/assets/a42f9155-65c4-4721-a402-e8aa9ca35621" />
 
