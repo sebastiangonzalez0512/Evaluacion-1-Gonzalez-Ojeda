@@ -3,7 +3,7 @@ Evaluacion 1
 
 Estudiantes: Sebastian Gonzalez / Benjamin Ojeda
 
-CREACION MAQUINA LINUX (REDHAT 9)
+# CREACION MAQUINA LINUX (REDHAT 9)
 
 Nombre de la maquina virtual y Hardware: Tal y como lo indica la evaluacion, se le puso el nombre "Linux (Nombre Estudiantes)" a la maquina virtual.
 Se asignaron 4GB de memoria RAM, 2 CPU y un disco primario de 30GB.
@@ -48,6 +48,28 @@ Algo importante a destacar luego de hacer la particion SWAP es que antes no sali
 
 Con el reboot, se confirma que los discos estan montados correctamente y que los pasos de la maquina virtual Linux estan completados.
 
+# CREACION MAQUINA WINDOWS SERVER 2019 (Estandar con GUI)
 
+Nombre de la maquina virtual y Hardware: Segun lo indicado, la maquina debia tener 4GB de ram, 2CPU y un disco de 30GB al igual que la maquina Linux
+
+<img width="489" height="327" alt="image" src="https://github.com/user-attachments/assets/a80d3fa8-c6fc-40de-9682-c8ddeb10dcd6" />
+
+A continuacion, se procede a hacer la instalacion en version Estandar con GUI
+
+<img width="652" height="585" alt="0" src="https://github.com/user-attachments/assets/ea2a08dc-f9b8-4eb5-a8ab-b2c8ea24210d" />
+
+Particiones: Una vez instalada la maquina, se apaga y se le añaden 2 discos SATA de 5GB
+
+<img width="490" height="91" alt="image" src="https://github.com/user-attachments/assets/67f43c0d-e052-46f3-b992-befc9fa71263" />
+
+Ambos discos son formateados con NTFS. Al primer disco se le asigno la letra X: y al segundo disco la letra Y:
+
+<img width="752" height="687" alt="image (2)" src="https://github.com/user-attachments/assets/7d68d3d3-50f1-49c3-8b66-18ca9bfa6283" />
+
+Una vez los discos estan listos, se creo la carpeta "Benjamin-Sebastian" en el disco X: y la carpeta "Ojeda-Gonzalez" en el disco Y:
+
+<img width="1776" height="690" alt="carpeta discos" src="https://github.com/user-attachments/assets/2add5b5c-c3c6-4d93-84ac-f77ddb100fac" />
+
+Con esto ya se cumplen los requisitos dados por la evaluacion.
 
 
