@@ -73,7 +73,9 @@ Particiones: Una vez instalada la maquina, se apaga y se le añaden 2 discos SAT
 
 <img width="490" height="91" alt="image" src="https://github.com/user-attachments/assets/67f43c0d-e052-46f3-b992-befc9fa71263" />
 
-Ambos discos son formateados con NTFS. Al primer disco se le asigno la letra X: y al segundo disco la letra Y:
+Se accedio al administrador de discos desde la Administracion de servidor/Administracion de equipos/Administrador de discos.
+
+Una vez aca, ambos discos son formateados con NTFS. Al primer disco se le asigno la letra X: y al segundo disco la letra Y:
 
 <img width="752" height="687" alt="image (2)" src="https://github.com/user-attachments/assets/7d68d3d3-50f1-49c3-8b66-18ca9bfa6283" />
 
