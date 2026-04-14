@@ -44,14 +44,14 @@ Archivo /etc/fstab visto con "cat": Aca se ven las particiones sdb1, sdb3 y sdb4
 
 Reboot, last log y lsblk: Aca se siguio la maquina virtual en la casa (por eso la hora). Ademas, para confirmar que la maquina virtual de la casa es completamente igual se adjuntan nuevamente el comando cat, lsblk y parted print.
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/2eda68eb-5ec8-4dcd-bee3-be998340042e" />
+<img width="1598" height="900" alt="image" src="https://github.com/user-attachments/assets/1525760e-73d4-48e4-ac01-e20512bfd106" />
 
 
 En la siguiente imagen se ve la ultima sesion antes del reboot. (sale que la sesion anterior empezo a las 14 horas porque intentamos cambiar la hora para que se mantenga uniforme con las demas capturas, pero al final preferimos la honestidad antes que la inconsistencia).
 
-<img width="688" height="224" alt="image" src="https://github.com/user-attachments/assets/a42f9155-65c4-4721-a402-e8aa9ca35621" />
+<img width="677" height="184" alt="image" src="https://github.com/user-attachments/assets/0b8ad1cf-1f02-4c8c-95cc-426bd053337e" />
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c5c57238-6df1-497d-a10a-cbd7868c9e15" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/58a15a4f-3757-49c7-8616-acd4f4a24b67" />
 
 
 Algo importante a destacar luego de hacer la particion SWAP es que antes no salia como tal en el comando lsblk, pero despues del reboot su punto de montura ahora si aparece como [SWAP]
