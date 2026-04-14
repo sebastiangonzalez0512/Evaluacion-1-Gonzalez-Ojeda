@@ -47,7 +47,7 @@ Reboot, last log y lsblk: Aca se siguio la maquina virtual en la casa (por eso l
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/2eda68eb-5ec8-4dcd-bee3-be998340042e" />
 
 
-En la siguiente imagen se ve la ultima sesion antes del reboot. (al final sale que la sesion anterior empezo a las 14 horas porque intentamos cambiar la hora para que se mantenga uniforme con las demas capturas, pero preferimos la honestidad antes que la inconsistencia).
+En la siguiente imagen se ve la ultima sesion antes del reboot. (sale que la sesion anterior empezo a las 14 horas porque intentamos cambiar la hora para que se mantenga uniforme con las demas capturas, pero preferimos la honestidad antes que la inconsistencia).
 
 <img width="688" height="224" alt="image" src="https://github.com/user-attachments/assets/a42f9155-65c4-4721-a402-e8aa9ca35621" />
 
