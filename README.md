@@ -22,7 +22,7 @@ Hostname: Se le asigno el nombre "gonzalez-ojeda" por el apellido de ambos estud
 
 <img width="1282" height="900" alt="image" src="https://github.com/user-attachments/assets/187c37ed-6ed8-4964-b150-710709b98cf6" />
 
-A continuacion se muestra en el lsblk el nuevo disco de 30GB que se solicito para particionar.
+A continuacion, una vez instalado se muestra en el lsblk el nuevo disco de 30GB que se solicito para particionar.
 
 <img width="1281" height="858" alt="image" src="https://github.com/user-attachments/assets/b84fcd2e-1c69-4e51-82da-80fa29d92f43" />
 
