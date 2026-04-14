@@ -12,9 +12,11 @@ Se asignaron 4GB de memoria RAM, 2 CPU y un disco primario de 30GB.
 
 <img width="749" height="474" alt="image" src="https://github.com/user-attachments/assets/677cbd92-a640-4abc-8f34-283916c72fff" />
 
+
 Esquema de particiones disco principal: Se pidio una particion de /boot (o /boot/efi) de 1024MiB, una particion de /swap de 2Gib y el resto del disco debia ser de la raiz (/)
 
 <img width="1267" height="883" alt="image" src="https://github.com/user-attachments/assets/0ab8c1fd-18b7-4166-8995-15ae030fa979" />
+
 
 Hostname: Se le asigno el nombre "gonzalez-ojeda" por el apellido de ambos estudiantes
 
@@ -24,21 +26,26 @@ A continuacion se muestra en el lsblk el nuevo disco de 30GB que se solicito par
 
 <img width="1281" height="858" alt="image" src="https://github.com/user-attachments/assets/b84fcd2e-1c69-4e51-82da-80fa29d92f43" />
 
+
 Comando lsblk con particiones creadas: Se crearon las 4 particiones correspondientes.
 
 <img width="671" height="402" alt="image" src="https://github.com/user-attachments/assets/a801d593-bc89-4042-a193-93d9743d475e" />
+
 
 Comando parted print en /dev/sdb: Aca se pueden ver las particiones solicitadas con un poco mas de detalle.
 
 <img width="806" height="431" alt="image" src="https://github.com/user-attachments/assets/8702f3b5-a0cd-475c-a647-c8c8837278fc" />
 
+
 Archivo /etc/fstab visto con "cat": Aca se ven las particiones sdb1, sdb3 y sdb4 agregadas al archivo fstab, la segunda no esta porque no se debia montar.
 
 <img width="1105" height="485" alt="image" src="https://github.com/user-attachments/assets/5424c4de-bebf-412f-863d-2fb12fcbf150" />
 
+
 Reboot, last log y lsblk: Aca se siguio la maquina virtual en la casa (por eso la hora). Ademas, para confirmar que la maquina virtual de la casa es completamente igual se adjuntan nuevamente el comando cat, lsblk y parted print.
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/2eda68eb-5ec8-4dcd-bee3-be998340042e" />
+
 
 En la siguiente imagen se ve la ultima sesion antes del reboot. (al final sale que la sesion anterior empezo a las 14 horas porque intentamos cambiar la hora para que se mantenga uniforme con las demas capturas, pero preferimos la honestidad antes que la inconsistencia).
 
@@ -46,9 +53,11 @@ En la siguiente imagen se ve la ultima sesion antes del reboot. (al final sale q
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c5c57238-6df1-497d-a10a-cbd7868c9e15" />
 
+
 Algo importante a destacar luego de hacer la particion SWAP es que antes no salia como tal en el comando lsblk, pero despues del reboot su punto de montura ahora si aparece como [SWAP]
 
 Con el reboot, se confirma que los discos estan montados correctamente y que los pasos de la maquina virtual Linux estan completados.
+
 
 # CREACION MAQUINA WINDOWS SERVER 2019 (Estandar con GUI)
 
