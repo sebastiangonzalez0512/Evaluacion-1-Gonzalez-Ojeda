@@ -37,7 +37,7 @@ Comando parted print en /dev/sdb: Aca se pueden ver las particiones solicitadas 
 <img width="806" height="431" alt="image" src="https://github.com/user-attachments/assets/8702f3b5-a0cd-475c-a647-c8c8837278fc" />
 
 
-Archivo /etc/fstab visto con "cat": Aca se ven las particiones sdb1, sdb3 y sdb4 agregadas al archivo fstab, la segunda no esta porque no se debia montar.
+Comando cat/etc/fstab: Aca se ven las particiones sdb1, sdb3 y sdb4 agregadas al archivo fstab, la segunda no esta porque no se debia montar.
 
 <img width="1105" height="485" alt="image" src="https://github.com/user-attachments/assets/5424c4de-bebf-412f-863d-2fb12fcbf150" />
 
