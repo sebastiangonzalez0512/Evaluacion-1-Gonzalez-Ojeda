@@ -1,5 +1,5 @@
 # Evaluacion-1-Gonzalez-Ojeda
-Evaluacion 1
+Evaluacion 1 de Sistemas Operativos Corporativos 02D
 
 Estudiantes: Sebastian Gonzalez / Benjamin Ojeda
 
