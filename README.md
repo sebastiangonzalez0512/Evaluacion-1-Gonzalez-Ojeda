@@ -8,33 +8,37 @@ Estudiantes: Sebastian Gonzalez / Benjamin Ojeda
 Nombre de la maquina virtual y Hardware: Tal y como lo indica la evaluacion, se le puso el nombre "Linux SebastianGonzalez_BenjaminOjeda" a la maquina virtual.
 Se asignaron 4GB de memoria RAM, 2 CPU y un disco primario de 30GB.
 
-<img width="729" height="645" alt="image" src="https://github.com/user-attachments/assets/8c4ebfa4-6106-465e-bab4-f2c657ba09a8" />
-
-<img width="749" height="474" alt="image" src="https://github.com/user-attachments/assets/677cbd92-a640-4abc-8f34-283916c72fff" />
+<img width="427" height="472" alt="image" src="https://github.com/user-attachments/assets/3b23ecc1-2de0-479d-b2b8-8fc87803775f" />
 
 
 Esquema de particiones disco principal: Se pidio una particion de /boot (o /boot/efi) de 1024MiB, una particion de /swap de 2Gib y el resto del disco debia ser de la raiz (/)
 
-<img width="1267" height="883" alt="image" src="https://github.com/user-attachments/assets/0ab8c1fd-18b7-4166-8995-15ae030fa979" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5026a0f3-5a16-4509-9fff-0df7fa013920" />
 
 
 Hostname: Se le asigno el nombre "gonzalez-ojeda" por el apellido de ambos estudiantes
 
-<img width="1282" height="900" alt="image" src="https://github.com/user-attachments/assets/187c37ed-6ed8-4964-b150-710709b98cf6" />
-
-A continuacion, una vez instalado se muestra en el lsblk el nuevo disco de 30GB que se solicito para particionar.
-
-<img width="1281" height="858" alt="image" src="https://github.com/user-attachments/assets/b84fcd2e-1c69-4e51-82da-80fa29d92f43" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/67d76b3f-384a-431a-8895-89683243abc5" />
 
 
-Comando lsblk con particiones creadas: Se crearon las 4 particiones correspondientes.
+Servidor con GUI: Segun los requisitos, se tiene que instalar una maquina server con GUI (Interfaz Grafica).
 
-<img width="671" height="402" alt="image" src="https://github.com/user-attachments/assets/a801d593-bc89-4042-a193-93d9743d475e" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/eabd4f3b-13dc-421f-a3b4-2b068faad4ac" />
+
+
+A continuacion, una vez instalado el sistema operativo se muestra en el lsblk el nuevo disco de 30GB que se solicito para particionar.
+
+<img width="762" height="578" alt="image" src="https://github.com/user-attachments/assets/4f6029e2-93d2-4fec-b9e2-c0ff251138e2" />
+
+
+Comando lsblk con particiones creadas: Se creo la particion 1 de 6GB en formato ext4 y montada en /gonzalezojeda/nuevo1, la particion 2 de 15GB con etiqueta lvm que no se debia montar, la particion 3 de 6GB en formato xfs y montada en /gonzalezojeda/nuevo2 y la particion 4 con el resto disponible del disco como SWAP
+
+<img width="718" height="373" alt="image" src="https://github.com/user-attachments/assets/80def847-d8f5-4fb2-8506-52cbd3bbf761" />
 
 
 Comando parted print en /dev/sdb: Aca se pueden ver las particiones solicitadas con un poco mas de detalle.
 
-<img width="806" height="431" alt="image" src="https://github.com/user-attachments/assets/8702f3b5-a0cd-475c-a647-c8c8837278fc" />
+<img width="679" height="391" alt="image" src="https://github.com/user-attachments/assets/c66c374e-6846-414d-b841-04625af59570" />
 
 
 Comando cat/etc/fstab: Aca se ven las particiones sdb1, sdb3 y sdb4 agregadas al archivo fstab, la segunda no esta porque no se debia montar.
@@ -42,23 +46,17 @@ Comando cat/etc/fstab: Aca se ven las particiones sdb1, sdb3 y sdb4 agregadas al
 <img width="1105" height="485" alt="image" src="https://github.com/user-attachments/assets/5424c4de-bebf-412f-863d-2fb12fcbf150" />
 
 
-Reboot, last log y lsblk: Aca se siguio la maquina virtual en la casa (por eso la hora). Ademas, para confirmar que la maquina virtual de la casa es completamente igual se adjuntan nuevamente el comando cat, lsblk y parted print.
+Reboot y last login: Se uso el comando reboot para reiniciar la maquina y se uso el comando "last" para ver las sesiones anteriores. 
 
-<img width="1598" height="900" alt="image" src="https://github.com/user-attachments/assets/1525760e-73d4-48e4-ac01-e20512bfd106" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/4be1c67c-3f01-40f8-b739-f92a1286f2f9" />
 
+<img width="750" height="594" alt="image" src="https://github.com/user-attachments/assets/41ff33f2-4fbf-49c1-aca4-760018078403" />
 
-En la siguiente imagen se ve la ultima sesion antes del reboot.
+lsblk luego del reboot: Aqui se puede apreciar que las particiones siguen montadas luego del reboot. Ademas, la particion Swap ahora sale como [SWAP] en los puntos de montura a comparacion de antes que no salia nada.
 
-<img width="677" height="184" alt="image" src="https://github.com/user-attachments/assets/0b8ad1cf-1f02-4c8c-95cc-426bd053337e" />
+<img width="718" height="538" alt="image" src="https://github.com/user-attachments/assets/2ddaf5b2-cb25-4696-bb46-0673bd964efa" />
 
-cat /etc/fstab | lsblk | parted /dev/sdb print
-
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/58a15a4f-3757-49c7-8616-acd4f4a24b67" />
-
-
-Algo importante a destacar luego de hacer la particion SWAP es que antes no salia como tal en el comando lsblk, pero despues del reboot su punto de montura ahora si aparece como [SWAP]
-
-Con el reboot, se confirma que los discos estan montados correctamente y que los pasos de la maquina virtual Linux estan completados.
+Con esto, los requisitos de la maquina virtual Linux estan completados.
 
 
 # CREACION MAQUINA WINDOWS SERVER 2019 (Estandar con GUI)
