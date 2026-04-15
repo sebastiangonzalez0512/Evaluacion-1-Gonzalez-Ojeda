@@ -43,7 +43,7 @@ Comando parted print en /dev/sdb: Aca se pueden ver las particiones solicitadas 
 
 Comando cat/etc/fstab: Aca se ven las particiones sdb1, sdb3 y sdb4 agregadas al archivo fstab, la segunda no esta porque no se debia montar.
 
-<img width="1105" height="485" alt="image" src="https://github.com/user-attachments/assets/5424c4de-bebf-412f-863d-2fb12fcbf150" />
+<img width="891" height="496" alt="image" src="https://github.com/user-attachments/assets/ed02ea3a-df99-44c9-b710-a9d21fe9a2e5" />
 
 
 Reboot y last login: Se uso el comando reboot para reiniciar la maquina y se uso el comando "last" para ver las sesiones anteriores. 
